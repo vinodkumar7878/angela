@@ -177,7 +177,7 @@ div{
 outline: 0px solid #036cdb!important;
 }
 /* TabletResponsive */
-
+/*
 
 @media (max-width:1028px){
 
@@ -197,7 +197,7 @@ outline: 0px solid #036cdb!important;
   }
   /* Top-container */
 
-
+/*
   .top-container {
     position: relative;
     padding-bottom: 100px;
@@ -233,7 +233,7 @@ left:2%;
 /* Middle container with profile has there */
 
 
-.middle-container {
+/* .middle-container {
   margin: 100px 0;
 }
 .introduction {
@@ -245,7 +245,7 @@ hr {
   border-bottom: none;
   width: 6%;
   margin: 0 auto 60px;
-}
+} */
 
 
   /* Education of School and college */
@@ -256,14 +256,14 @@ hr {
 
 /* Hobbies with the skills  */
 
-.Myskills {
+/* .Myskills {
   width: 80%;
   margin: 100px auto 100px auto;
   text-align: center;
   line-height: 1.5;
-}
+} */
 
-
+/*
 .technology {
 
   width: 200px;
@@ -277,13 +277,13 @@ hr {
 .container-fluid{
   padding: 0 0 0 0;
 
-}
+}  */
 
 /* mobileresponsive */
 
 
 
-@media (max-width:570px){
+@media (max-width:1028px){
   h2 {
     font-size: 2rem;
     color: #66BFBF;
@@ -324,16 +324,16 @@ hr {
   }
   .top-cloud {
     position: absolute;
-    left:300px;
+    right:150px;
     top: 25px;
     width:150px;
     height:100px;
 }
 .bottom-cloud {
   position: absolute;
-  left: 50px;
-  top: 360px;
-  width:150px;
+  left: 130px;
+  top: 380px;
+  width:170px;
   height:100px;
 }
 .mountain{
@@ -360,10 +360,10 @@ hr {
  /* Hobbies with the skills  */
 
  .Myskills {
-   width: 50%;
+   width: 30%;
    margin: 80px auto 80px auto;
    text-align:center;
-   line-height: 1.5;
+   line-height: 1rem;
  }
 
 
@@ -371,9 +371,9 @@ hr {
 
    width: 200px;
    height: 200px;
-   /* float: right; */
-   /* margin-left: 20px; */
-   /* margin-bottom: 150px; */
+    float:center;
+    margin-left: 20px;
+    margin-bottom: 150px;
    border-radius: 200%;
 
  }
@@ -384,7 +384,7 @@ hr {
 
 }
 
-.container-fluid{
+ .container-fluid{
   padding: 0 0 0 0;
 
 }
